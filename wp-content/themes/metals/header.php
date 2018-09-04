@@ -11,11 +11,11 @@
 <body>
 <div id="top"></div>
 <div id="header">
-<div id="logo"><a href="index.html"><img src="<?php bloginfo('template_directory'); ?>/images/logo.gif" alt="冲孔网金牌供应商" width="500" height="80" /></a></div>
+<div id="logo"><a href="index.html"><img src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="深圳开发票_发票新闻网" width="500" height="80" /></a></div>
 <div id="tel"><img src="<?php bloginfo('template_directory'); ?>/images/tel.gif" alt="tel" width="337" height="32" /></div>
 </div>
 <div id="menu"><ul>
-<li id="current"><a title="网站首页" href="<?php echo get_option('home'); ?>">网站首页</a> </li>
+<li id="current"><a title="深圳开发票_发票新闻网" href="<?php echo get_option('home'); ?>">网站首页</a> </li>
 <?php wp_list_pages('sort_column=menu_order&title_li=&depth=2&include='); ?>
 <?php
 $categories=get_categories('include=1,12,18');
