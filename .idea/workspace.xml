@@ -18,10 +18,13 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/metals/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="279">
+              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
               <folding>
-                <element signature="e#428#447#0#HTML" expanded="true" />
+                <element signature="e#157#176#0#HTML" expanded="true" />
+                <element signature="e#316#335#0#HTML" expanded="true" />
+                <element signature="e#601#620#0#HTML" expanded="true" />
+                <element signature="e#1765#1784#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -200,12 +203,12 @@
       <workItem from="1533347329079" duration="24455000" />
       <workItem from="1533889411402" duration="351000" />
       <workItem from="1534319559932" duration="554000" />
-      <workItem from="1536059752496" duration="2850000" />
+      <workItem from="1536059752496" duration="3627000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29471000" />
+    <option name="totallyTimeSpent" value="30248000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -402,10 +405,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/metals/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="279">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
           <folding>
-            <element signature="e#428#447#0#HTML" expanded="true" />
+            <element signature="e#157#176#0#HTML" expanded="true" />
+            <element signature="e#316#335#0#HTML" expanded="true" />
+            <element signature="e#601#620#0#HTML" expanded="true" />
+            <element signature="e#1765#1784#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
