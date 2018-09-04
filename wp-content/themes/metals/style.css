@@ -1,0 +1,91 @@
+﻿/*
+Theme Name: WP百科网五金网企业主题   
+Theme URI: http://www.wpbaike.com 
+Description: WP百科网五金网企业主题
+Author: WP百科网 
+Author URI: http://www.wpbaike.com
+Version: 1.0 
+Tags: metals, company, wpbaike
+*/
+
+@charset "utf-8";
+body { margin: 0px; padding: 0px; font: 12px/28px "宋体", Arial; text-decoration: none; }
+h3 { border-bottom: #b6dbf4 1px solid; line-height: 34px; height: 34px; color: #000; font-size: 14px; font-weight: bold; margin: 0px; padding: 2px 10px 0px 20px; position: relative; }
+h1 { border-bottom: #b6dbf4 1px solid; line-height: 34px; height: 34px; color: #000; margin: 0px; padding: 5px 0px; text-align: center; }
+img{ border:0px;}
+#header { margin: 0px auto; padding: 5px 0px 10px; width: 960px; position: relative; height: 80px; }
+#menu { background: url(images/nav_l_bg.gif) repeat-x; margin: 0px; padding: 0px; height: 48px; }
+#menu ul { margin: 0px auto; padding: 0px; width: 960px; height: 48px; list-style: none; }
+#menu li { float: left; background: url(images/nav_li_right.gif) no-repeat right center; margin: 0px; padding: 0px 13px 0px 15px; height: 48px; width: 88px; font-size: 14px; line-height: 48px; font-weight: bold; text-decoration: none; text-align: center; }
+#menu a {width: 88px; display: block; height: 48px; color: #fff; text-decoration: none;}
+#menu a:hover {line-height: 37px; background: url(images/nav_li_hover.gif) no-repeat; text-decoration: none;}
+#current a {
+width: 88px; display: block; background: url(images/nav_li_current.gif) no-repeat; height: 37px; color: #fff; text-decoration: none;
+}#menu #current {line-height: 37px; text-decoration: none;}
+#banner-left { margin: 0px; padding: 0px; float: left; height: 450px; width: 680px; display: inline; }
+#banner { margin: 0px auto; padding: 0px; width: 960px; position: relative; }
+#banner-right { margin: 0px; padding: 0px; float: right; height: 450px; width: 280px; }
+#main,#products,#info,#products-list,#content,#channpinshuoming,#info-list,#dianye { background: #ebf5fc; margin: 0px auto; width: 944px; position: relative; padding-top: 8px; padding-right: 8px; padding-left: 8px; }
+#kf { background: #ebf5fc; margin: 0px auto; width: 944px; position: relative; padding: 4px 8px 8px; }
+#bottom { background: #ebf5fc; margin: 0px auto; width: 944px; position: relative; padding-right: 8px; padding-left: 8px; }
+#main-about { border: 1px solid #b6dbf4; background: #FFFFFF; margin: 0px; padding: 0px; float: left; width: 630px; display: inline; height:308px; }
+#main-news { margin: 0px 0px 0px 10px; padding: 0px; float: left; width: 300px; border: 1px solid #b6dbf4; display: inline; overflow: hidden; height: 308px; background: #FFFFFF; }
+#products-content,#list-content,#xiangxi,#shuoming-content,#info-list-content,#dianye-xiangxi{ margin: 0px; padding: 0px; width: 942px; border: 1px solid #b6dbf4; background: #FFFFFF; position: relative; }
+#tuli{ margin: 0px; padding: 0px; width: 942px; border: 1px solid #b6dbf4; background: #FFFFFF; position: relative; }
+#fenye { margin: 10px 0px 0px; padding: 0px; width: 942px; background: #FFFFFF; position: relative; border: 1px solid #b6dbf4; }
+#info-help,#info-tongzhi { background: #FFFFFF; margin: 0px 10px 0px 0px; padding: 0px; float: left; width: 306px; border: 1px solid #b6dbf4; }
+#info-anli { background: #FFFFFF; margin: 0px; padding: 0px; float: left; width: 306px; border: 1px solid #b6dbf4; }
+#nav { background: #5f89b5; height: 32px; text-align: center; color: #FFFFFF; text-decoration: none; }
+#bottom-body { background: #FFFFFF; margin: 0px; padding: 0px; height: 100px; width: 944px; text-align: center; }
+#xiangxi p,#dianye-xiangxi p,#shuoming-content p,#tuli p { font-size: 14px; line-height: 28px; color: #333; margin: 0px; padding: 10px; text-decoration: none; text-indent: 2em; }
+#xiangxi img,#dianye-xiangxi img { margin: 0px; padding: 0px 157px 0px 130px; }
+#info-list-content ul { margin: 0px; padding: 0px; width: 942px; list-style: none; }
+#info-list-content li { margin: 0px 0px 0px 10px; padding: 0px 0px 0px 15px; float: left; width: 446px; background: url(images/ico.gif) no-repeat left center; display: inline; word-wrap:break-word;}
+#info-list-content a { line-height: 28px; color: #333; text-decoration: none; font-size: 14px; float: left; }
+#info-list-content a:hover { color: #f00; }
+#info-list-content span { color: #999999; margin: 0px 10px 0px 0px; padding: 0px; float: right; }
+#boxtop,#news,#help,#tongzhi {border-bottom: #b6dbf4 1px solid; padding-bottom: 0px; line-height: 34px; padding-left: 20px; padding-right: 10px; height: 34px; color: #000; font-size: 14px; font-weight: bold; padding-top: 2px}
+#boxtop span,#news span,#help span,#tongzhi span { float: right; color: #000000; font-size: 12px; font-weight: normal;}
+#boxtop span a,#news a,#help a,#tongzhi a {	color: #000; text-decoration: none;}#products-content ul { margin: 5px 1px; padding: 0px; width: 940px; float: left; }
+#products-content li { margin: 0px 4px; padding: 0px; float: left; width: 180px; text-align: center; line-height: 28px; color: #333; display: inline; word-wrap:break-word;}
+#products-content a { text-decoration: none; font-size: 14px; color: #333; line-height: 28px; }
+#products-content a:hover { color: #f00; }
+#list-a { margin: 0px; padding: 10px; width: 922px; position: relative; }
+#list-a a,#daili a { font-size: 14px; line-height: 28px; color: #333; text-decoration: none; margin: 0px; padding: 0px 10px 0px 18px; float: left; background: url(images/i4.jpg) no-repeat left center; white-space: nowrap; display: block; }
+#list-a a:hover,#daili a:hover { color:#F00; }
+#list-a a:hover{ color:#f00; white-space: nowrap; display: inline; }
+#info ul { margin: 0px; padding: 0px; width: 306px; }
+#info li { margin: 0px 0px 0px 5px; padding: 0px 0px 0px 15px; float: left; width: 286px; background: url(images/ico.gif) no-repeat left center; display: inline; }
+#info li a,#main-news a { font-size: 14px; line-height: 28px; color: #333; text-decoration: none; float: left; white-space: nowrap; }
+#info li a:hover,#main-news a:hvoer { color: #f00; }
+#info span,#main-news span { margin: 0px; padding: 0px 5px 0px 0px; float: right; color: #999; text-decoration: none; }
+#daili { margin: 0px; padding: 0px 5px; width: 296px; }
+#main-news ul { margin: 0px; padding: 0px 0px 0px 5px; width: 295px; list-style: none; }
+#main-news li { margin: 0px; padding: 0px 0px 0px 15px; width: 280px; background: url(images/ico.gif) no-repeat left center; }
+#main-news a { font-size: 14px; line-height: 28px; color: #333; text-decoration: none; }
+#top { background: url(images/bg.jpg) repeat-x; margin: 0px; padding: 0px; height: 34px; width: 100%; }
+#main-about p { font-size: 14px; line-height: 28px; color: #333; text-decoration: none; text-indent: 2em; margin: 0px; padding-right: 10px; padding-left: 10px; }#logo { margin: 0px; padding: 0px; float: left; height: 80px; width: 500px; }
+#tel { margin: 0px; padding: 28px 0px 20px 123px; height: 32px; width: 337px; float: left; }
+#bottom-body p { text-decoration: none; text-align: center; margin: 0px; padding: 0px; height: 28px; }
+#bottom-body a { font-size: 12px; color: #f00; text-decoration: none; margin: 0px; padding: 0px 5px; }
+#nav a { color: #FFFFFF; text-decoration: none; line-height: 32px; }
+.mF_expo2010{ position:relative; width:680px; height:450px; overflow:hidden; font:12px/1.5 Verdana,Geneva,sans-serif; background:#fff; margin: 0px; padding: 0px; }
+.mF_expo2010 .loading{position:absolute;z-index:9999;width:100%;height:100%;color:#666;text-align:center;padding-top:90px;background:#fff url(images/loading.gif) center -40px no-repeat;}/*载入画面*/
+.mF_expo2010 .pic li{position:absolute;}
+.mF_expo2010 .pic li img{width:680px;height:450px;}/*图片和焦点图框架一样大小*/
+.mF_expo2010 .txt li{position:absolute;z-index:2;left:0;width:680px;height:36px;line-height:36px;overflow:hidden;}
+.mF_expo2010 .txt li a{display:block;color:#fff;padding:2px 0 0 16px;font-size:14px;font-weight:bold;text-decoration:none;}/*标题样式*/
+.mF_expo2010 .txt-bg{position:absolute;bottom:0;z-index:1;width:680px;height:36px;overflow:hidden;background:#000;filter:alpha(opacity=40);opacity:0.4;}/*标题背景*/
+.mF_expo2010 .num,.mF_expo2010 .num-bg{position:absolute;z-index:3;bottom:8px;right:8px;color:#fff;}/*按钮样式*/
+.mF_expo2010 .num li,.mF_expo2010 .num-bg li{float:left;width:22px;height:18px;line-height:18px;overflow:hidden;text-align:center;margin-right:1px;cursor:pointer;}
+.mF_expo2010 .num-bg li{background:#fff;filter:alpha(opacity=50);opacity:0.5;}/*按钮背景*/
+.mF_expo2010 .num li.current,.mF_expo2010 .num li.hover{background:#F60;}/*当前/悬停按钮背景*/
+*{margin:0;padding:0;border:0;list-style:none;}
+.k_pagelist {float:left;display:table;clear:both;line-height:30px;}
+.k_pagelist em {padding:2px;border:1px solid #E7E7E7;font-size:12px;margin:0px 1px;background:#F5F9FE;color:#14316B;font-weight:bold;font-style:normal;}
+.k_pagelist strong {padding:2px;border:1px solid #E7E7E7;font-size:12px;margin:0px 1px;color:#009900;}
+.k_pagelist a {padding:2px;border:1px solid #E7E7E7;font-size:12px;margin:0px 1px;}.fengye {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
